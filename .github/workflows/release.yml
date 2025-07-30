@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Cần để semantic-release phân tích lịch sử commit
+          fetch-depth: 0  # Cần để phân tích lịch sử commit
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
