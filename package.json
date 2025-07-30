@@ -1,13 +1,12 @@
 {
   "name": "@devt110103/utils-js",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "A simple utility library for JavaScript and TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build",
-    "release": "semantic-release"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "utils",
@@ -18,12 +17,7 @@
   "author": "DevT",
   "license": "MIT",
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^11.0.3",
-    "@semantic-release/npm": "^12.0.2",
     "@types/node": "^24.1.0",
-    "semantic-release": "^24.2.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
