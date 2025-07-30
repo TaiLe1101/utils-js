@@ -1,0 +1,27 @@
+{
+  "name": "@devt110103/utils-js",
+  "version": "1.0.0",
+  "description": "A simple utility library for JavaScript and TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "utils",
+    "devt",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "DevT",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
