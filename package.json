@@ -1,6 +1,6 @@
 {
   "name": "@devt110103/utils-js",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A simple utility library for JavaScript and TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,5 +24,8 @@
   "files": [
     "dist",
     "CHANGELOG.md"
-  ]
+  ],
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
 }
